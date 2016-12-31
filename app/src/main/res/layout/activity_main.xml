@@ -11,7 +11,25 @@
     tools:context="com.example.kraikar.service.MainActivity">
 
     <TextView
+        android:text="Work with 'Service'"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:id="@+id/textView"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:text="Start the Service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="121dp"
+        android:id="@+id/buttonStartService"
+        android:onClick="buttonStartService" />
 </RelativeLayout>
